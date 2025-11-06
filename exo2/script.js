@@ -1,5 +1,5 @@
 "use strict";
-// creation d'un tableau de chaine de caracteres (vu dans le slide 38)
+// creation d'un tableau de chaine de caractères (vu dans le slide 38)
 const Etudiants = ["Etudiant1", "Etudiant2", "Etudiant3"];
 // ici on utilise une boucle pour afficher le tableau Etudiants (vu dans le slide 44)
 function F1() {
