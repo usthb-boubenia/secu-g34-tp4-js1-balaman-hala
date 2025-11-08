@@ -37,7 +37,7 @@ function A() {
     //Boucle for (vu dans le slide 44)
     for (let i = 0; i < Students.length; i++) {
         // l'appel de la fonction B pour verifier 
-        if (B(Students[i].note1 + Students[i].note2))
+        if (B((Students[i].note1 + Students[i].note2) / 2 + 5))
             console.log(Students[i].matricule + ": ADMIS")
         else
             console.log(Students[i].matricule + ": AJOURNÉ")
